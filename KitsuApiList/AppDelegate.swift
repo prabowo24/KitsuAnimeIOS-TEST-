@@ -8,6 +8,65 @@
 
 import UIKit
 
+
+//Extension for loading image from url
+extension UIImageView{
+    public func imageFromURL(urlString:String, imageError:UIImage){
+        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        activityIndicator.frame = CGRect.init(x:0, y:0, width:self.frame.size.width, height:self.frame.size.height)
+        activityIndicator.startAnimating()
+        
+        if(self.image == nil){
+            self.addSubview(activityIndicator)
+        }
+        
+        URLSession.shared.dataTask(with: NSURL(string: urlString)! as URL, completionHandler:{(data, response, error) -> Void in
+            
+            if error != nil{
+                print(error ?? "No Error")
+                self.image = imageError
+                return
+            }
+            
+            DispatchQueue.main.async(execute: {() -> Void in
+                let image = UIImage(data:data!)
+                activityIndicator.removeFromSuperview()
+                self.image = image
+            })
+            
+        }).resume()
+    }
+}
+
+
+extension UIViewController{
+    //extentions to show spinner
+    class func displaySpinner(onView: UIView) -> UIView{
+        let spinnerView = UIView.init(frame: onView.bounds)
+        spinnerView.backgroundColor = UIColor.init(red:0.5, green:0.5, blue:0.5, alpha:0.5)
+        let ai = UIActivityIndicatorView.init(activityIndicatorStyle: .whiteLarge)
+        ai.startAnimating()
+        ai.center = spinnerView.center
+        
+        DispatchQueue.main.async {
+            spinnerView.addSubview(ai)
+            onView.addSubview(spinnerView)
+        }
+        
+        return spinnerView
+    }
+    
+    //extentions to hide spinner
+    class func removeSpinner(spinner: UIView){
+        DispatchQueue.main.async {
+            spinner.removeFromSuperview()
+        }
+    }
+    
+}
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +75,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        SettingHelper.clear()
         return true
     }
 

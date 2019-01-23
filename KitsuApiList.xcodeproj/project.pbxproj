@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		8423223621F82596008282F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423223521F82596008282F4 /* AppDelegate.swift */; };
-		8423223821F82596008282F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423223721F82596008282F4 /* ViewController.swift */; };
+		8423223821F82596008282F4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423223721F82596008282F4 /* RootViewController.swift */; };
 		8423223B21F82596008282F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423223921F82596008282F4 /* Main.storyboard */; };
 		8423223D21F82596008282F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423223C21F82596008282F4 /* Assets.xcassets */; };
 		8423224021F82596008282F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423223E21F82596008282F4 /* LaunchScreen.storyboard */; };
+		8423224921F826E2008282F4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423224821F826E2008282F4 /* NavigationController.swift */; };
+		8423224B21F827BF008282F4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423224A21F827BF008282F4 /* DetailViewController.swift */; };
+		8423226521F83369008282F4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423226421F83369008282F4 /* Config.swift */; };
+		8423226A21F8519A008282F4 /* AnimeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423226921F8519A008282F4 /* AnimeApi.swift */; };
+		8423226F21F85E0E008282F4 /* AnimeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423226E21F85E0E008282F4 /* AnimeItemCell.swift */; };
+		8423227121F86121008282F4 /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423227021F86121008282F4 /* AnimeModel.swift */; };
+		9F09F99521F8C8F600030B16 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09F99421F8C8F600030B16 /* ProfileController.swift */; };
+		9F09F99721F8CE7700030B16 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09F99621F8CE7700030B16 /* UserApi.swift */; };
+		9F09F99921F8CEB100030B16 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09F99821F8CEB100030B16 /* UserModel.swift */; };
+		9F09F99B21F8D55500030B16 /* OauthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09F99A21F8D55500030B16 /* OauthToken.swift */; };
+		9F09F99E21F8D95900030B16 /* SettingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09F99D21F8D95900030B16 /* SettingHelper.swift */; };
+		9F09F9A221F8DB3000030B16 /* OauthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09F9A121F8DB3000030B16 /* OauthController.swift */; };
+		BC314999E529B1937B64EFB6 /* Pods_KitsuApiList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16E6AA50AED72C4450302F8 /* Pods_KitsuApiList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8423223221F82596008282F4 /* KitsuApiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitsuApiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423223521F82596008282F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8423223721F82596008282F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8423223721F82596008282F4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		8423223A21F82596008282F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8423223C21F82596008282F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8423223F21F82596008282F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8423224121F82596008282F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8423224821F826E2008282F4 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		8423224A21F827BF008282F4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8423226421F83369008282F4 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		8423226921F8519A008282F4 /* AnimeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeApi.swift; sourceTree = "<group>"; };
+		8423226E21F85E0E008282F4 /* AnimeItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeItemCell.swift; sourceTree = "<group>"; };
+		8423227021F86121008282F4 /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
+		9CD52BE7D8C6E1C47BB318E2 /* Pods-KitsuApiList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitsuApiList.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitsuApiList/Pods-KitsuApiList.release.xcconfig"; sourceTree = "<group>"; };
+		9F09F99421F8C8F600030B16 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		9F09F99621F8CE7700030B16 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		9F09F99821F8CEB100030B16 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9F09F99A21F8D55500030B16 /* OauthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthToken.swift; sourceTree = "<group>"; };
+		9F09F99D21F8D95900030B16 /* SettingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingHelper.swift; sourceTree = "<group>"; };
+		9F09F9A121F8DB3000030B16 /* OauthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthController.swift; sourceTree = "<group>"; };
+		C16E6AA50AED72C4450302F8 /* Pods_KitsuApiList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitsuApiList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F750ED298B5503BFE066C61C /* Pods-KitsuApiList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitsuApiList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitsuApiList/Pods-KitsuApiList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC314999E529B1937B64EFB6 /* Pods_KitsuApiList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				8423223421F82596008282F4 /* KitsuApiList */,
 				8423223321F82596008282F4 /* Products */,
+				CE9BF213487DCE2BD98FD157 /* Pods */,
+				8A7B853A6F8811D785BD182A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,83 @@
 		8423223421F82596008282F4 /* KitsuApiList */ = {
 			isa = PBXGroup;
 			children = (
+				9F09F99C21F8D93C00030B16 /* Helpers */,
+				8423226B21F85DF0008282F4 /* Cell */,
+				8423226821F8518E008282F4 /* Api */,
+				8423224C21F82B23008282F4 /* Model */,
+				8423224721F826B8008282F4 /* Controller */,
 				8423223521F82596008282F4 /* AppDelegate.swift */,
-				8423223721F82596008282F4 /* ViewController.swift */,
+				8423226421F83369008282F4 /* Config.swift */,
 				8423223921F82596008282F4 /* Main.storyboard */,
 				8423223C21F82596008282F4 /* Assets.xcassets */,
 				8423223E21F82596008282F4 /* LaunchScreen.storyboard */,
 				8423224121F82596008282F4 /* Info.plist */,
 			);
 			path = KitsuApiList;
+			sourceTree = "<group>";
+		};
+		8423224721F826B8008282F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8423223721F82596008282F4 /* RootViewController.swift */,
+				8423224821F826E2008282F4 /* NavigationController.swift */,
+				8423224A21F827BF008282F4 /* DetailViewController.swift */,
+				9F09F99421F8C8F600030B16 /* ProfileController.swift */,
+				9F09F9A121F8DB3000030B16 /* OauthController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8423224C21F82B23008282F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F09F99A21F8D55500030B16 /* OauthToken.swift */,
+				8423227021F86121008282F4 /* AnimeModel.swift */,
+				9F09F99821F8CEB100030B16 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8423226821F8518E008282F4 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				8423226921F8519A008282F4 /* AnimeApi.swift */,
+				9F09F99621F8CE7700030B16 /* UserApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		8423226B21F85DF0008282F4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8423226E21F85E0E008282F4 /* AnimeItemCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8A7B853A6F8811D785BD182A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C16E6AA50AED72C4450302F8 /* Pods_KitsuApiList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F09F99C21F8D93C00030B16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F09F99D21F8D95900030B16 /* SettingHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE9BF213487DCE2BD98FD157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F750ED298B5503BFE066C61C /* Pods-KitsuApiList.debug.xcconfig */,
+				9CD52BE7D8C6E1C47BB318E2 /* Pods-KitsuApiList.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8423224421F82596008282F4 /* Build configuration list for PBXNativeTarget "KitsuApiList" */;
 			buildPhases = (
+				B4AAEEF2E655C2D888AA8D19 /* [CP] Check Pods Manifest.lock */,
 				8423222E21F82596008282F4 /* Sources */,
 				8423222F21F82596008282F4 /* Frameworks */,
 				8423223021F82596008282F4 /* Resources */,
+				4309919DF440EBB609BDA708 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,7 +198,7 @@
 				TargetAttributes = {
 					8423223121F82596008282F4 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -131,13 +233,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4309919DF440EBB609BDA708 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KitsuApiList/Pods-KitsuApiList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitsuApiList/Pods-KitsuApiList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AAEEF2E655C2D888AA8D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KitsuApiList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8423222E21F82596008282F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8423223821F82596008282F4 /* ViewController.swift in Sources */,
+				8423226A21F8519A008282F4 /* AnimeApi.swift in Sources */,
+				9F09F99721F8CE7700030B16 /* UserApi.swift in Sources */,
+				8423223821F82596008282F4 /* RootViewController.swift in Sources */,
+				8423226521F83369008282F4 /* Config.swift in Sources */,
+				8423224921F826E2008282F4 /* NavigationController.swift in Sources */,
+				9F09F99B21F8D55500030B16 /* OauthToken.swift in Sources */,
+				9F09F99521F8C8F600030B16 /* ProfileController.swift in Sources */,
+				8423226F21F85E0E008282F4 /* AnimeItemCell.swift in Sources */,
 				8423223621F82596008282F4 /* AppDelegate.swift in Sources */,
+				9F09F99E21F8D95900030B16 /* SettingHelper.swift in Sources */,
+				8423227121F86121008282F4 /* AnimeModel.swift in Sources */,
+				8423224B21F827BF008282F4 /* DetailViewController.swift in Sources */,
+				9F09F99921F8CEB100030B16 /* UserModel.swift in Sources */,
+				9F09F9A221F8DB3000030B16 /* OauthController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +427,16 @@
 		};
 		8423224521F82596008282F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F750ED298B5503BFE066C61C /* Pods-KitsuApiList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KitsuApiList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowo.KitsuApiList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +444,16 @@
 		};
 		8423224621F82596008282F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD52BE7D8C6E1C47BB318E2 /* Pods-KitsuApiList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KitsuApiList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowo.KitsuApiList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
